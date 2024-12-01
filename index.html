@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Rooms Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Available Rooms Checker</h1>
+    </header>
+
+    <main>
+        <div class="dropdown-container">
+            <label for="dropdown1">Select day:</label>
+            <select id="dropdown1">
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+            </select>
+        </div>
+    
+        <div class="dropdown-container">
+            <label for="dropdown2">Select Time:</label>
+            <select id="dropdown2">
+                <option value="08:00 AM-09:20 AM">08:00 AM-09:20 AM</option>
+                <option value="09:30 AM-10:50 AM">09:30 AM-10:50 AM</option>
+                <option value="11:00 AM-12:20 PM">11:00 AM-12:20 PM</option>
+                <option value="12:30 PM-01:50 PM">12:30 PM-01:50 PM</option>
+                <option value="02:00 PM-03:20 PM">02:00 PM-03:20 PM</option>
+                <option value="03:30 PM-04:50 PM">03:30 PM-04:50 PM</option>
+                <option value="05:00 PM-06:20 PM">05:00 PM-06:20 PM</option>
+            </select>
+        </div>
+
+        <button onclick="checkAvailableRooms()">Check Available Rooms</button>
+        <p id="result"></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+    <script>
+        async function checkAvailableRooms() {
+            const selectedDay = document.getElementById("dropdown1").value;
+            const selectedTime = document.getElementById("dropdown2").value;
+            const resultDiv = document.getElementById("result");
+
+            try {
+                // Fetch schedule data from JSON file
+                const response = await fetch('free_class.json');
+                const scheduleData = await response.json();
+
+                // Define all available rooms (example)
+                const allRooms = ["UB0000", "07B-15C", "UB0001", "UB0002", "UB0003"];
+
+                // Find occupied rooms at the selected day and time
+                const occupiedRooms = scheduleData
+                    .filter(schedule => 
+                        (schedule.classDay1 === selectedDay || schedule.classDay2 === selectedDay) &&
+                        schedule.classTime === selectedTime
+                    )
+                    .map(schedule => schedule.roomNumber);
+
+                // Filter out occupied rooms to get the available rooms
+                const availableRooms = allRooms.filter(room => !occupiedRooms.includes(room));
+
+                // Display available rooms or a message if none are available
+                if (availableRooms.length > 0) {
+                    resultDiv.innerText = `Available rooms: ${availableRooms.join(", ")}`;
+                } else {
+                    resultDiv.innerText = "No rooms are available at this time.";
+                }
+            } catch (error) {
+                console.error("Error fetching schedule:", error);
+                resultDiv.innerText = "Error checking available rooms. Please try again later.";
+            }
+        }
+    </script>
+</body>
+</html>
