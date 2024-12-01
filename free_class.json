@@ -30,50 +30,50 @@
     "classSchedule": "Monday(03:30 PM-04:50 PM-09G-29C),Wednesday(03:30 PM-04:50 PM-09G-29C)"
   },
   {
-    "classSchedule": "Sunday(02:00 PM-03:20 PM-09C-13C),Tuesday(02:00 PM-03:20 PM-09C-13C)",
+    "classSchedule": "Sunday(02:00 PM-03:20 PM-09C-13C),Tuesday(02:00 PM-03:20 PM-09C-13C)"
   },
   {
-    "classSchedule": "Sunday(12:30 PM-01:50 PM-10A-06C),Tuesday(12:30 PM-01:50 PM-10A-06C)",
+    "classSchedule": "Sunday(12:30 PM-01:50 PM-10A-06C),Tuesday(12:30 PM-01:50 PM-10A-06C)"
   },
   {
-    "classSchedule": "Sunday(08:00 AM-09:20 AM-09D-17C),Tuesday(08:00 AM-09:20 AM-09D-17C)",
+    "classSchedule": "Sunday(08:00 AM-09:20 AM-09D-17C),Tuesday(08:00 AM-09:20 AM-09D-17C)"
   },
   {
-    "classSchedule": "Monday(03:30 PM-04:50 PM-07B-15C),Wednesday(03:30 PM-04:50 PM-07B-15C)",
+    "classSchedule": "Monday(03:30 PM-04:50 PM-07B-15C),Wednesday(03:30 PM-04:50 PM-07B-15C)"
   },
 
   {
-    "classSchedule": "Monday(09:30 AM-10:50 AM-07A-05C),Wednesday(09:30 AM-10:50 AM-07A-05C)",
+    "classSchedule": "Monday(09:30 AM-10:50 AM-07A-05C),Wednesday(09:30 AM-10:50 AM-07A-05C)"
   },
   {
-    "classSchedule": "Saturday(09:30 AM-10:50 AM-09E-23C),Thursday(09:30 AM-10:50 AM-09E-23C)",
+    "classSchedule": "Saturday(09:30 AM-10:50 AM-09E-23C),Thursday(09:30 AM-10:50 AM-09E-23C)"
   },
   {
-    "classSchedule": "Wednesday(08:00 AM-09:20 AM-11H-43L),Wednesday(09:30 AM-10:50 AM-11H-43L)",
+    "classSchedule": "Wednesday(08:00 AM-09:20 AM-11H-43L),Wednesday(09:30 AM-10:50 AM-11H-43L)"
   },
   {
-    "classSchedule": "Monday(08:00 AM-09:20 AM-11H-43L),Monday(09:30 AM-10:50 AM-11H-43L)",
+    "classSchedule": "Monday(08:00 AM-09:20 AM-11H-43L),Monday(09:30 AM-10:50 AM-11H-43L)"
   },
   {
-    "classSchedule": "Sunday(08:00 AM-09:20 AM-07B-15C),Tuesday(08:00 AM-09:20 AM-07B-15C)",
+    "classSchedule": "Sunday(08:00 AM-09:20 AM-07B-15C),Tuesday(08:00 AM-09:20 AM-07B-15C)"
   },
   {
-    "classSchedule": "Saturday(08:00 AM-09:20 AM-08B-09C),Thursday(08:00 AM-09:20 AM-08B-09C)",
+    "classSchedule": "Saturday(08:00 AM-09:20 AM-08B-09C),Thursday(08:00 AM-09:20 AM-08B-09C)"
   },
   {
-    "classSchedule": "Monday(08:00 AM-09:20 AM-07A-10C),Wednesday(08:00 AM-09:20 AM-07A-10C)",
+    "classSchedule": "Monday(08:00 AM-09:20 AM-07A-10C),Wednesday(08:00 AM-09:20 AM-07A-10C)"
   },
   {
-    "classSchedule": "Saturday(09:30 AM-10:50 AM-10D-23C),Thursday(09:30 AM-10:50 AM-10D-23C)",
+    "classSchedule": "Saturday(09:30 AM-10:50 AM-10D-23C),Thursday(09:30 AM-10:50 AM-10D-23C)"
   },
   {
-    "classSchedule": "Saturday(02:00 PM-03:20 PM-10D-23C),Thursday(02:00 PM-03:20 PM-10D-23C)",
+    "classSchedule": "Saturday(02:00 PM-03:20 PM-10D-23C),Thursday(02:00 PM-03:20 PM-10D-23C)"
   },
   {
-    "classSchedule": "Sunday(11:00 AM-12:20 PM-07B-16C),Tuesday(11:00 AM-12:20 PM-07B-16C)",
+    "classSchedule": "Sunday(11:00 AM-12:20 PM-07B-16C),Tuesday(11:00 AM-12:20 PM-07B-16C)"
   },
   {
-    "classSchedule": "Saturday(09:30 AM-10:50 AM-09H-36C),Thursday(09:30 AM-10:50 AM-09H-36C)",
+    "classSchedule": "Saturday(09:30 AM-10:50 AM-09H-36C),Thursday(09:30 AM-10:50 AM-09H-36C)"
   },
   {
     "classSchedule": "Saturday(12:30 PM-01:50 PM-UB0000),Thursday(12:30 PM-01:50 PM-UB0000)",
@@ -362,24 +362,8 @@
     "classSchedule": "Saturday(03:30 PM-04:50 PM-07H-30C),Thursday(03:30 PM-04:50 PM-07H-30C)"
   },
   {
-    "id": 11652,
-    "academicSectionId": 2315381,
-    "courseId": 650995,
-    "academicSessionId": 627125,
-    "courseCode": "MAT110",
-    "courseTitle": "MATHEMATICS I: DIFFERENTIAL CALCULUS & COORDINATE GEOMETRY",
-    "courseDetails": "MAT110-[20]",
-    "empName": "To Be Appointed",
-    "empShortName": "TBA",
-    "deptName": "DEPARTMENT OF MATHEMATICS & NATURAL SCIENCES",
-    "classSchedule": "Saturday(09:30 AM-10:50 AM-10H-38C),Thursday(09:30 AM-10:50 AM-10H-38C)",
-    "classLabSchedule": "Saturday(09:30 AM-10:50 AM-10H-38C),Thursday(09:30 AM-10:50 AM-10H-38C)",
-    "preRequisiteCourses": "",
-    "defaultSeatCapacity": 40,
-    "availableSeat": 40,
-    "totalFillupSeat": 5,
-    "courseCredit": 3,
-    "dayNo": "Reserve Dat 2 (23-12-2024)"
+    
+    "classSchedule": "Saturday(09:30 AM-10:50 AM-10H-38C),Thursday(09:30 AM-10:50 AM-10H-38C)"
   },
   {
     "id": 11607,
